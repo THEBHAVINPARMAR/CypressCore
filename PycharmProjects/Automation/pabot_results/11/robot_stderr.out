@@ -1,0 +1,3 @@
+[ WARN ] Keyword 'Get Element Count' found both from a custom test library 'SeleniumLibrary' and a standard library 'XML'. The custom keyword is used. To select explicitly, and to get rid of this warning, use either 'SeleniumLibrary.Get Element Count' or 'XML.Get Element Count'.
+[ WARN ] Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\20GetAllLinks.robot' in FOR loop starting on line 14: For loop header ':FOR' is deprecated. Use 'FOR' instead.
+[ WARN ] Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\20GetAllLinks.robot' in FOR loop starting on line 14: Marking for loop body with '\' is deprecated. Remove markers and use 'END' instead.

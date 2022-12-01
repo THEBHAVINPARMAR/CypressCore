@@ -1,0 +1,30 @@
+datasources:f00136ee49bf37a857259677bf84fcb7776d2874
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:4adf5173dc71c1ca415bca9f00c07b9a33c5e7a7
+--suite Suites.10TabsWindows
+--suite Suites.11MultiBrowser
+--suite Suites.12NavigateKeywords
+--suite Suites.13CaptureScreenshot
+--suite Suites.14MouseOperation
+--suite Suites.15UserdefKeywords
+--suite Suites.16UserdefKeywordsWithArgument
+--suite Suites.17Otherdirectory
+--suite Suites.18ScrollingPage
+--suite Suites.19ForLoop
+--suite Suites.1LogIn
+--suite Suites.20GetAllLinks
+--suite Suites.21TableDemo
+--suite Suites.22DDT1
+--suite Suites.23DDT2 Excel
+--suite Suites.24DDT3 csv
+--suite Suites.24SetupAndTeardown
+--suite Suites.25Tagging
+--suite Suites.2LogIn
+--suite Suites.3Inputbox
+--suite Suites.4RadioButtons
+--suite Suites.5Dropdown
+--suite Suites.6Waits
+--suite Suites.7CloseBrowser
+--suite Suites.8Alert
+--suite Suites.9Frames

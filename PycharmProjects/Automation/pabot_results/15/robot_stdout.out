@@ -1,0 +1,22 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.24DDT3 csv                                                             
+==============================================================================
+LoginTestWithCSV using admin@yourstore.com and aaaaa                  | PASS |
+------------------------------------------------------------------------------
+LoginTestWithCSV using addmin@yourstore.com and bbbbb                 | PASS |
+------------------------------------------------------------------------------
+LoginTestWithCSV using admnni@yourstore.com and cccccc                | PASS |
+------------------------------------------------------------------------------
+LoginTestWithCSV using minad@yourstore.com and dddddd                 | PASS |
+------------------------------------------------------------------------------
+Suites.24DDT3 csv                                                     | PASS |
+4 critical tests, 4 passed, 0 failed
+4 tests total, 4 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+4 critical tests, 4 passed, 0 failed
+4 tests total, 4 passed, 0 failed
+==============================================================================
+Output:  C:\Users\parma\PycharmProjects\Automation\pabot_results\15\output.xml

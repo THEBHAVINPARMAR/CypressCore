@@ -1,0 +1,17 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.10TabsWindows                                                          
+==============================================================================
+Handling Tabs                                                         | FAIL |
+TypeError: cannot unpack non-iterable NoneType object
+------------------------------------------------------------------------------
+Suites.10TabsWindows                                                  | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\parma\PycharmProjects\Automation\pabot_results\0\output.xml

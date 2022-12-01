@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.9.0 on win32)" generated="20220530 10:23:32.572" rpa="false">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="19ForLoop" source="C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot">
+<test id="s1-s1-t1" name="ForLoop1">
+<kw name="${i} IN RANGE [ 1 | 11 ]" type="for">
+<msg timestamp="20220530 10:23:32.597" level="WARN">Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 3: For loop header ':FOR' is deprecated. Use 'FOR' instead.</msg>
+<msg timestamp="20220530 10:23:32.597" level="WARN">Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 3: Marking for loop body with '\' is deprecated. Remove markers and use 'END' instead.</msg>
+<kw name="${i} = 1" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20220530 10:23:32.598" endtime="20220530 10:23:32.598"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.597" endtime="20220530 10:23:32.598"></status>
+</kw>
+<kw name="${i} = 2" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20220530 10:23:32.599" endtime="20220530 10:23:32.599"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.598" endtime="20220530 10:23:32.599"></status>
+</kw>
+<kw name="${i} = 3" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20220530 10:23:32.599" endtime="20220530 10:23:32.599"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.599" endtime="20220530 10:23:32.599"></status>
+</kw>
+<kw name="${i} = 4" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20220530 10:23:32.600" endtime="20220530 10:23:32.600"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.600" endtime="20220530 10:23:32.600"></status>
+</kw>
+<kw name="${i} = 5" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20220530 10:23:32.600" endtime="20220530 10:23:32.600"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.600" endtime="20220530 10:23:32.600"></status>
+</kw>
+<kw name="${i} = 6" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20220530 10:23:32.600" endtime="20220530 10:23:32.601"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.600" endtime="20220530 10:23:32.601"></status>
+</kw>
+<kw name="${i} = 7" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20220530 10:23:32.601" endtime="20220530 10:23:32.601"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.601" endtime="20220530 10:23:32.601"></status>
+</kw>
+<kw name="${i} = 8" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20220530 10:23:32.601" endtime="20220530 10:23:32.602"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.601" endtime="20220530 10:23:32.602"></status>
+</kw>
+<kw name="${i} = 9" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20220530 10:23:32.602" endtime="20220530 10:23:32.602"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.602" endtime="20220530 10:23:32.602"></status>
+</kw>
+<kw name="${i} = 10" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20220530 10:23:32.602" endtime="20220530 10:23:32.602"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.602" endtime="20220530 10:23:32.602"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.597" endtime="20220530 10:23:32.602"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.596" endtime="20220530 10:23:32.602" critical="yes"></status>
+</test>
+<test id="s1-s1-t2" name="ForLoop2">
+<kw name="${j} IN [ 1 2 3 4 5 6 7 8 9 ]" type="for">
+<msg timestamp="20220530 10:23:32.604" level="WARN">Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 7: For loop header ':FOR' is deprecated. Use 'FOR' instead.</msg>
+<msg timestamp="20220530 10:23:32.604" level="WARN">Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 7: Marking for loop body with '\' is deprecated. Remove markers and use 'END' instead.</msg>
+<kw name="${j} = 1 2 3 4 5 6 7 8 9" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${j}</arg>
+</arguments>
+<status status="PASS" starttime="20220530 10:23:32.604" endtime="20220530 10:23:32.605"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.604" endtime="20220530 10:23:32.605"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.603" endtime="20220530 10:23:32.605"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.602" endtime="20220530 10:23:32.605" critical="yes"></status>
+</test>
+<test id="s1-s1-t3" name="ForLoop3 With List">
+<kw name="Create List" library="BuiltIn">
+<doc>Returns a list containing given items.</doc>
+<arguments>
+<arg>1 2 3 4 5 6 7 8 9 9</arg>
+</arguments>
+<assign>
+<var>@{items}</var>
+</assign>
+<msg timestamp="20220530 10:23:32.606" level="INFO">@{items} = [ 1 2 3 4 5 6 7 8 9 9 ]</msg>
+<status status="PASS" starttime="20220530 10:23:32.605" endtime="20220530 10:23:32.606"></status>
+</kw>
+<kw name="${k} IN [ @{items} ]" type="for">
+<msg timestamp="20220530 10:23:32.606" level="WARN">Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 12: For loop header ':FOR' is deprecated. Use 'FOR' instead.</msg>
+<msg timestamp="20220530 10:23:32.606" level="WARN">Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 12: Marking for loop body with '\' is deprecated. Remove markers and use 'END' instead.</msg>
+<kw name="${k} = 1 2 3 4 5 6 7 8 9 9" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${k}</arg>
+</arguments>
+<status status="PASS" starttime="20220530 10:23:32.606" endtime="20220530 10:23:32.607"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.606" endtime="20220530 10:23:32.607"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.606" endtime="20220530 10:23:32.607"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.605" endtime="20220530 10:23:32.607" critical="yes"></status>
+</test>
+<test id="s1-s1-t4" name="ForLoop4">
+<kw name="${l} IN [ parmar | bhavin | dineshbhai ]" type="for">
+<msg timestamp="20220530 10:23:32.607" level="WARN">Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 16: For loop header ':FOR' is deprecated. Use 'FOR' instead.</msg>
+<msg timestamp="20220530 10:23:32.607" level="WARN">Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 16: Marking for loop body with '\' is deprecated. Remove markers and use 'END' instead.</msg>
+<kw name="${l} = parmar" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${l}</arg>
+</arguments>
+<status status="PASS" starttime="20220530 10:23:32.608" endtime="20220530 10:23:32.608"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.608" endtime="20220530 10:23:32.608"></status>
+</kw>
+<kw name="${l} = bhavin" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${l}</arg>
+</arguments>
+<status status="PASS" starttime="20220530 10:23:32.608" endtime="20220530 10:23:32.608"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.608" endtime="20220530 10:23:32.608"></status>
+</kw>
+<kw name="${l} = dineshbhai" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${l}</arg>
+</arguments>
+<status status="PASS" starttime="20220530 10:23:32.609" endtime="20220530 10:23:32.609"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.608" endtime="20220530 10:23:32.609"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.607" endtime="20220530 10:23:32.609"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.607" endtime="20220530 10:23:32.609" critical="yes"></status>
+</test>
+<test id="s1-s1-t5" name="ForLoop5">
+<kw name="Create List" library="BuiltIn">
+<doc>Returns a list containing given items.</doc>
+<arguments>
+<arg>l1 l2 l3 l4 l5 l6</arg>
+</arguments>
+<assign>
+<var>@{namelist}</var>
+</assign>
+<msg timestamp="20220530 10:23:32.609" level="INFO">@{namelist} = [ l1 l2 l3 l4 l5 l6 ]</msg>
+<status status="PASS" starttime="20220530 10:23:32.609" endtime="20220530 10:23:32.609"></status>
+</kw>
+<kw name="${m} IN [ @{namelist} ]" type="for">
+<msg timestamp="20220530 10:23:32.610" level="WARN">Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 21: For loop header ':FOR' is deprecated. Use 'FOR' instead.</msg>
+<msg timestamp="20220530 10:23:32.610" level="WARN">Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 21: Marking for loop body with '\' is deprecated. Remove markers and use 'END' instead.</msg>
+<kw name="${m} = l1 l2 l3 l4 l5 l6" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${m}</arg>
+</arguments>
+<status status="PASS" starttime="20220530 10:23:32.610" endtime="20220530 10:23:32.610"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.610" endtime="20220530 10:23:32.611"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.609" endtime="20220530 10:23:32.611"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.609" endtime="20220530 10:23:32.611" critical="yes"></status>
+</test>
+<test id="s1-s1-t6" name="ForLoop6">
+<kw name="Create List" library="BuiltIn">
+<doc>Returns a list containing given items.</doc>
+<arguments>
+<arg>1</arg>
+<arg>2</arg>
+<arg>3</arg>
+<arg>4</arg>
+<arg>5</arg>
+<arg>6</arg>
+</arguments>
+<assign>
+<var>@{items}</var>
+</assign>
+<msg timestamp="20220530 10:23:32.611" level="INFO">@{items} = [ 1 | 2 | 3 | 4 | 5 | 6 ]</msg>
+<status status="PASS" starttime="20220530 10:23:32.611" endtime="20220530 10:23:32.611"></status>
+</kw>
+<kw name="${n} IN [ @{items} ]" type="for">
+<msg timestamp="20220530 10:23:32.612" level="WARN">Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 26: For loop header ':FOR' is deprecated. Use 'FOR' instead.</msg>
+<msg timestamp="20220530 10:23:32.612" level="WARN">Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 26: Marking for loop body with '\' is deprecated. Remove markers and use 'END' instead.</msg>
+<kw name="${n} = 1" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${n}</arg>
+</arguments>
+<status status="PASS" starttime="20220530 10:23:32.612" endtime="20220530 10:23:32.612"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.612" endtime="20220530 10:23:32.612"></status>
+</kw>
+<kw name="${n} = 2" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${n}</arg>
+</arguments>
+<status status="PASS" starttime="20220530 10:23:32.612" endtime="20220530 10:23:32.613"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.612" endtime="20220530 10:23:32.613"></status>
+</kw>
+<kw name="${n} = 3" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${n}</arg>
+</arguments>
+<status status="PASS" starttime="20220530 10:23:32.613" endtime="20220530 10:23:32.613"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.613" endtime="20220530 10:23:32.613"></status>
+</kw>
+<kw name="${n} = 4" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${n}</arg>
+</arguments>
+<status status="PASS" starttime="20220530 10:23:32.613" endtime="20220530 10:23:32.614"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.613" endtime="20220530 10:23:32.614"></status>
+</kw>
+<kw name="${n} = 5" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${n}</arg>
+</arguments>
+<status status="PASS" starttime="20220530 10:23:32.614" endtime="20220530 10:23:32.614"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.614" endtime="20220530 10:23:32.614"></status>
+</kw>
+<kw name="${n} = 6" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${n}</arg>
+</arguments>
+<status status="PASS" starttime="20220530 10:23:32.614" endtime="20220530 10:23:32.614"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.614" endtime="20220530 10:23:32.614"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.612" endtime="20220530 10:23:32.615"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:23:32.611" endtime="20220530 10:23:32.615" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20220530 10:23:32.595" endtime="20220530 10:23:32.615"></status>
+</suite>
+<status status="PASS" starttime="20220530 10:23:32.579" endtime="20220530 10:23:32.616"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="6" fail="0">Critical Tests</stat>
+<stat pass="6" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="6" fail="0" id="s1" name="Suites">Suites</stat>
+<stat pass="6" fail="0" id="s1-s1" name="19ForLoop">Suites.19ForLoop</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220530 10:23:32.597" level="WARN">Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 3: For loop header ':FOR' is deprecated. Use 'FOR' instead.</msg>
+<msg timestamp="20220530 10:23:32.597" level="WARN">Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 3: Marking for loop body with '\' is deprecated. Remove markers and use 'END' instead.</msg>
+<msg timestamp="20220530 10:23:32.604" level="WARN">Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 7: For loop header ':FOR' is deprecated. Use 'FOR' instead.</msg>
+<msg timestamp="20220530 10:23:32.604" level="WARN">Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 7: Marking for loop body with '\' is deprecated. Remove markers and use 'END' instead.</msg>
+<msg timestamp="20220530 10:23:32.606" level="WARN">Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 12: For loop header ':FOR' is deprecated. Use 'FOR' instead.</msg>
+<msg timestamp="20220530 10:23:32.606" level="WARN">Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 12: Marking for loop body with '\' is deprecated. Remove markers and use 'END' instead.</msg>
+<msg timestamp="20220530 10:23:32.607" level="WARN">Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 16: For loop header ':FOR' is deprecated. Use 'FOR' instead.</msg>
+<msg timestamp="20220530 10:23:32.607" level="WARN">Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 16: Marking for loop body with '\' is deprecated. Remove markers and use 'END' instead.</msg>
+<msg timestamp="20220530 10:23:32.610" level="WARN">Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 21: For loop header ':FOR' is deprecated. Use 'FOR' instead.</msg>
+<msg timestamp="20220530 10:23:32.610" level="WARN">Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 21: Marking for loop body with '\' is deprecated. Remove markers and use 'END' instead.</msg>
+<msg timestamp="20220530 10:23:32.612" level="WARN">Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 26: For loop header ':FOR' is deprecated. Use 'FOR' instead.</msg>
+<msg timestamp="20220530 10:23:32.612" level="WARN">Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 26: Marking for loop body with '\' is deprecated. Remove markers and use 'END' instead.</msg>
+</errors>
+</robot>

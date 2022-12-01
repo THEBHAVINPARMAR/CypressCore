@@ -1,0 +1,18 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.11MultiBrowser                                                         
+==============================================================================
+Handling Multiple browsers Test                                       Google
+Bing
+| PASS |
+------------------------------------------------------------------------------
+Suites.11MultiBrowser                                                 | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\parma\PycharmProjects\Automation\pabot_results\1\output.xml

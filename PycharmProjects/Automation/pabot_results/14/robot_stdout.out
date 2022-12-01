@@ -1,0 +1,24 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.23DDT2 Excel                                                           
+==============================================================================
+LoginTestWithExcel using admin@yourstore.com and adm                  | PASS |
+------------------------------------------------------------------------------
+LoginTestWithExcel using adm@yourstore.com and admin                  | PASS |
+------------------------------------------------------------------------------
+LoginTestWithExcel using admm@yourstore.com and aaaa                  | PASS |
+------------------------------------------------------------------------------
+LoginTestWithExcel using adminn@yourstore.com and bbbbbb              | PASS |
+------------------------------------------------------------------------------
+LoginTestWithExcel using aaamm@yourstore.com and ccccxxxx             | PASS |
+------------------------------------------------------------------------------
+Suites.23DDT2 Excel                                                   | PASS |
+5 critical tests, 5 passed, 0 failed
+5 tests total, 5 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+5 critical tests, 5 passed, 0 failed
+5 tests total, 5 passed, 0 failed
+==============================================================================
+Output:  C:\Users\parma\PycharmProjects\Automation\pabot_results\14\output.xml

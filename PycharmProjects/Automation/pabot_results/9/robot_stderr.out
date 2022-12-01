@@ -1,0 +1,12 @@
+[ WARN ] Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 3: For loop header ':FOR' is deprecated. Use 'FOR' instead.
+[ WARN ] Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 3: Marking for loop body with '\' is deprecated. Remove markers and use 'END' instead.
+[ WARN ] Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 7: For loop header ':FOR' is deprecated. Use 'FOR' instead.
+[ WARN ] Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 7: Marking for loop body with '\' is deprecated. Remove markers and use 'END' instead.
+[ WARN ] Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 12: For loop header ':FOR' is deprecated. Use 'FOR' instead.
+[ WARN ] Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 12: Marking for loop body with '\' is deprecated. Remove markers and use 'END' instead.
+[ WARN ] Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 16: For loop header ':FOR' is deprecated. Use 'FOR' instead.
+[ WARN ] Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 16: Marking for loop body with '\' is deprecated. Remove markers and use 'END' instead.
+[ WARN ] Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 21: For loop header ':FOR' is deprecated. Use 'FOR' instead.
+[ WARN ] Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 21: Marking for loop body with '\' is deprecated. Remove markers and use 'END' instead.
+[ WARN ] Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 26: For loop header ':FOR' is deprecated. Use 'FOR' instead.
+[ WARN ] Error in file 'C:\Users\parma\PycharmProjects\Automation\TestSuite\19ForLoop.robot' in FOR loop starting on line 26: Marking for loop body with '\' is deprecated. Remove markers and use 'END' instead.

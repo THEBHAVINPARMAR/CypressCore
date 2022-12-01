@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.9.0 on win32)" generated="20220530 10:24:31.524" rpa="false">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="2LogIn" source="C:\Users\parma\PycharmProjects\Automation\TestSuite\2LogIn.robot">
+<test id="s1-s1-t1" name="LogInTest">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20220530 10:24:31.758" level="INFO">Opening browser 'chrome' to base url 'https://v3app.lifeisgoodforlearner.com/login'.</msg>
+<status status="PASS" starttime="20220530 10:24:31.757" endtime="20220530 10:24:37.972"></status>
+</kw>
+<kw name="LoginToApplication">
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:email</arg>
+<arg>testing.sapna@gmail.com</arg>
+</arguments>
+<msg timestamp="20220530 10:24:37.973" level="INFO">Typing text 'testing.sapna@gmail.com' into text field 'name:email'.</msg>
+<status status="PASS" starttime="20220530 10:24:37.972" endtime="20220530 10:24:38.081"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:password</arg>
+<arg>Demo@123</arg>
+</arguments>
+<msg timestamp="20220530 10:24:38.082" level="INFO">Typing text 'Demo@123' into text field 'name:password'.</msg>
+<status status="PASS" starttime="20220530 10:24:38.082" endtime="20220530 10:24:38.164"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://button[@type='submit']</arg>
+</arguments>
+<msg timestamp="20220530 10:24:38.165" level="INFO">Clicking element 'xpath://button[@type='submit']'.</msg>
+<status status="PASS" starttime="20220530 10:24:38.164" endtime="20220530 10:24:38.237"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:24:37.972" endtime="20220530 10:24:38.237"></status>
+</kw>
+<status status="PASS" starttime="20220530 10:24:31.757" endtime="20220530 10:24:38.237" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20220530 10:24:31.551" endtime="20220530 10:24:38.238"></status>
+</suite>
+<status status="PASS" starttime="20220530 10:24:31.532" endtime="20220530 10:24:38.240"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" id="s1-s1" name="2LogIn">Suites.2LogIn</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.9.0 on win32)" generated="20220530 10:22:32.863" rpa="false">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="10TabsWindows" source="C:\Users\parma\PycharmProjects\Automation\TestSuite\10TabsWindows.robot">
+<test id="s1-s1-t1" name="Handling Tabs">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://opensource-demo.orangehrmlive.com/</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20220530 10:22:33.059" level="INFO">Opening browser 'chrome' to base url 'https://opensource-demo.orangehrmlive.com/'.</msg>
+<status status="PASS" starttime="20220530 10:22:33.059" endtime="20220530 10:22:44.107"></status>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>OrangeHRM, Inc</arg>
+</arguments>
+<msg timestamp="20220530 10:22:44.108" level="INFO">Clicking link 'OrangeHRM, Inc'.</msg>
+<status status="PASS" starttime="20220530 10:22:44.107" endtime="20220530 10:22:44.206"></status>
+</kw>
+<kw name="Select Window" library="SeleniumLibrary">
+<doc>Selects browser window matching ``locator``.</doc>
+<arguments>
+<arg>title=OrangeHRM HR Software | Free &amp; Open Source HR Software | HRMS | HRIS</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20220530 10:22:50.971" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=101.0.4951.67)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x002BB8F3+2406643]
+	Ordinal0 [0x0024AF31+1945393]
+	Ordinal0 [0x0013C748+837448]
+	Ordinal0 [0x001242B0+737968]
+	Ordinal0 [0x00186C09+1141769]
+	Ordinal0 [0x00193E22+1195554]
+	Ordinal0 [0x00184096+1130646]
+	Ordinal0 [0x0015E636+976438]
+	Ordinal0 [0x0015F546+980294]
+	GetHandleVerifier [0x00529612+2498066]
+	GetHandleVerifier [0x0051C920+2445600]
+	GetHandleVerifier [0x00354F2A+579370]
+	GetHandleVerifier [0x00353D36+574774]
+	Ordinal0 [0x00251C0B+1973259]
+	Ordinal0 [0x00256688+1992328]
+	Ordinal0 [0x00256775+1992565]
+	Ordinal0 [0x0025F8D1+2029777]
+	BaseThreadInitThunk [0x76816739+25]
+	RtlGetFullPathName_UEx [0x77DF8FEF+1215]
+	RtlGetFullPathName_UEx [0x77DF8FBD+1165]
+	(No symbol) [0x00000000]
+</msg>
+<status status="FAIL" starttime="20220530 10:22:50.864" endtime="20220530 10:22:50.971"></status>
+</kw>
+<msg timestamp="20220530 10:22:50.972" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=101.0.4951.67)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x002BB8F3+2406643]
+	Ordinal0 [0x0024AF31+1945393]
+	Ordinal0 [0x0013C748+837448]
+	Ordinal0 [0x001242B0+737968]
+	Ordinal0 [0x00186C09+1141769]
+	Ordinal0 [0x00193E22+1195554]
+	Ordinal0 [0x00184096+1130646]
+	Ordinal0 [0x0015E636+976438]
+	Ordinal0 [0x0015F546+980294]
+	GetHandleVerifier [0x00529612+2498066]
+	GetHandleVerifier [0x0051C920+2445600]
+	GetHandleVerifier [0x00354F2A+579370]
+	GetHandleVerifier [0x00353D36+574774]
+	Ordinal0 [0x00251C0B+1973259]
+	Ordinal0 [0x00256688+1992328]
+	Ordinal0 [0x00256775+1992565]
+	Ordinal0 [0x0025F8D1+2029777]
+	BaseThreadInitThunk [0x76816739+25]
+	RtlGetFullPathName_UEx [0x77DF8FEF+1215]
+	RtlGetFullPathName_UEx [0x77DF8FBD+1165]
+	(No symbol) [0x00000000]
+</msg>
+<msg timestamp="20220530 10:22:50.973" level="INFO">Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\parma\PycharmProjects\Automation\TestSuite\10TabsWindows.robot:5
+    T:  Handling Tabs    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\parma\PycharmProjects\Automation\TestSuite\10TabsWindows.robot:0
+      Select Window    title=OrangeHRM HR Software | Free &amp; Open Source HR Software | HRMS | HRIS
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  c:\python\lib\site-packages\SeleniumLibrary\__init__.py:0
+      Capture Page Screenshot    
+______________________________________________________________________________</msg>
+<msg timestamp="20220530 10:22:51.004" level="FAIL">TypeError: cannot unpack non-iterable NoneType object</msg>
+<status status="FAIL" starttime="20220530 10:22:44.207" endtime="20220530 10:22:51.004"></status>
+</kw>
+<status status="FAIL" starttime="20220530 10:22:33.058" endtime="20220530 10:22:51.005" critical="yes">TypeError: cannot unpack non-iterable NoneType object</status>
+</test>
+<status status="FAIL" starttime="20220530 10:22:32.886" endtime="20220530 10:22:51.006"></status>
+</suite>
+<status status="FAIL" starttime="20220530 10:22:32.870" endtime="20220530 10:22:51.008"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Suites">Suites</stat>
+<stat pass="0" fail="1" id="s1-s1" name="10TabsWindows">Suites.10TabsWindows</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220530 10:22:50.972" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=101.0.4951.67)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x002BB8F3+2406643]
+	Ordinal0 [0x0024AF31+1945393]
+	Ordinal0 [0x0013C748+837448]
+	Ordinal0 [0x001242B0+737968]
+	Ordinal0 [0x00186C09+1141769]
+	Ordinal0 [0x00193E22+1195554]
+	Ordinal0 [0x00184096+1130646]
+	Ordinal0 [0x0015E636+976438]
+	Ordinal0 [0x0015F546+980294]
+	GetHandleVerifier [0x00529612+2498066]
+	GetHandleVerifier [0x0051C920+2445600]
+	GetHandleVerifier [0x00354F2A+579370]
+	GetHandleVerifier [0x00353D36+574774]
+	Ordinal0 [0x00251C0B+1973259]
+	Ordinal0 [0x00256688+1992328]
+	Ordinal0 [0x00256775+1992565]
+	Ordinal0 [0x0025F8D1+2029777]
+	BaseThreadInitThunk [0x76816739+25]
+	RtlGetFullPathName_UEx [0x77DF8FEF+1215]
+	RtlGetFullPathName_UEx [0x77DF8FBD+1165]
+	(No symbol) [0x00000000]
+</msg>
+</errors>
+</robot>

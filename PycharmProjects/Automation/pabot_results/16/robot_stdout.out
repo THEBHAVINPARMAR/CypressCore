@@ -1,0 +1,36 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.24SetupAndTeardown                                                     
+==============================================================================
+Opening Browser
+tc1 Prepaid Recharge                                                  Login to application
+this is prepaid recharge testcase
+Logout from application
+| PASS |
+------------------------------------------------------------------------------
+tc2 Postpaid Recharge                                                 Login to application
+This is the postpaid recharge testcase
+Logout from application
+| PASS |
+------------------------------------------------------------------------------
+tc3 Search                                                            Login to application
+this is search test case
+Logout from application
+| PASS |
+------------------------------------------------------------------------------
+tc4 Advance Search                                                    Login to application
+This is the advance search test case
+Logout from application
+| PASS |
+------------------------------------------------------------------------------
+Closing Brwoser
+Suites.24SetupAndTeardown                                             | PASS |
+4 critical tests, 4 passed, 0 failed
+4 tests total, 4 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+4 critical tests, 4 passed, 0 failed
+4 tests total, 4 passed, 0 failed
+==============================================================================
+Output:  C:\Users\parma\PycharmProjects\Automation\pabot_results\16\output.xml

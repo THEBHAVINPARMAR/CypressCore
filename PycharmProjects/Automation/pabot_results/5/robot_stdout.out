@@ -1,0 +1,16 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.15UserdefKeywords                                                      
+==============================================================================
+Userdefine Keywords TestCase one                                      | PASS |
+------------------------------------------------------------------------------
+Suites.15UserdefKeywords                                              | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\parma\PycharmProjects\Automation\pabot_results\5\output.xml

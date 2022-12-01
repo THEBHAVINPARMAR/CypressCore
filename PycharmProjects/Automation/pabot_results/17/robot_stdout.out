@@ -1,0 +1,30 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.25Tagging                                                              
+==============================================================================
+TC1 User RegistrationTest                                             this is user registration test
+user registration
+| PASS |
+------------------------------------------------------------------------------
+TC2 User LoginTest                                                    this
+login test is over
+| PASS |
+------------------------------------------------------------------------------
+TC3 Change user settings                                              this is changing user setting test
+chnage is user test is over
+| PASS |
+------------------------------------------------------------------------------
+TC4 Logout Test                                                       this is logout test
+log out test is over
+| PASS |
+------------------------------------------------------------------------------
+Suites.25Tagging                                                      | PASS |
+4 critical tests, 4 passed, 0 failed
+4 tests total, 4 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+4 critical tests, 4 passed, 0 failed
+4 tests total, 4 passed, 0 failed
+==============================================================================
+Output:  C:\Users\parma\PycharmProjects\Automation\pabot_results\17\output.xml

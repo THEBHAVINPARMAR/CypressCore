@@ -1,0 +1,6 @@
+Google on Tuesday released an update for Chrome web browser for Windows,
+Mac, and Linux, with a total of seven security fixes, including one flaw for
+which it says an exploit exists in the wild.
+Tracked as CVE-2021-21224, the flaw concerns a type
+confusion vulnerability in V8 open-source JavaScript
+engine that was reported to the company by security researcher Jose Martinez on April

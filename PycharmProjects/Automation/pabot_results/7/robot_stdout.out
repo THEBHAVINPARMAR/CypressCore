@@ -1,0 +1,17 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.17Otherdirectory                                                       
+==============================================================================
+Userdefine Keywords TestCase one                                      Welcome: Mercury Tours
+| PASS |
+------------------------------------------------------------------------------
+Suites.17Otherdirectory                                               | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\parma\PycharmProjects\Automation\pabot_results\7\output.xml
